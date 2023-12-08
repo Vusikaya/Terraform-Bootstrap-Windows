@@ -1,0 +1,682 @@
+2023-02-17T00:16:30.837+0200 [INFO]  Terraform version: 1.3.7
+2023-02-17T00:16:30.847+0200 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-17T00:16:30.847+0200 [DEBUG] using github.com/hashicorp/hcl/v2 v2.15.0
+2023-02-17T00:16:30.847+0200 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-17T00:16:30.847+0200 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-17T00:16:30.847+0200 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-17T00:16:30.847+0200 [INFO]  Go runtime version: go1.19.4
+2023-02-17T00:16:30.862+0200 [INFO]  CLI args: []string{"C:\\ProgramData\\chocolatey\\lib\\terraform\\tools\\terraform.exe", "plan", "-out", "main.tfplan"}
+2023-02-17T00:16:30.886+0200 [DEBUG] Attempting to open CLI config file: C:\Users\cash\AppData\Roaming\terraform.rc
+2023-02-17T00:16:30.901+0200 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-17T00:16:30.906+0200 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-17T00:16:30.906+0200 [DEBUG] ignoring non-existing provider search directory C:\Users\cash\AppData\Roaming\terraform.d\plugins
+2023-02-17T00:16:30.912+0200 [DEBUG] ignoring non-existing provider search directory C:\Users\cash\AppData\Roaming\HashiCorp\Terraform\plugins
+2023-02-17T00:16:30.931+0200 [INFO]  CLI command args: []string{"plan", "-out", "main.tfplan"}
+2023-02-17T00:16:31.068+0200 [DEBUG] New state was assigned lineage "d7655241-5f52-6d1e-ca23-28b77a32a574"
+2023-02-17T00:16:36.478+0200 [DEBUG] checking for provisioner in "."
+2023-02-17T00:16:36.478+0200 [DEBUG] checking for provisioner in "C:\\ProgramData\\chocolatey\\lib\\terraform\\tools"
+2023-02-17T00:16:36.506+0200 [INFO]  backend/local: starting Plan operation
+2023-02-17T00:16:36.699+0200 [DEBUG] created provider logger: level=debug
+2023-02-17T00:16:36.710+0200 [INFO]  provider: configuring client automatic mTLS
+2023-02-17T00:16:36.863+0200 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe args=[.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe]
+2023-02-17T00:16:39.541+0200 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe pid=5140
+2023-02-17T00:16:39.557+0200 [DEBUG] provider: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe
+2023-02-17T00:16:43.059+0200 [INFO]  provider.terraform-provider-azurerm_v3.43.0_x5.exe: configuring server automatic mTLS: timestamp=2023-02-17T00:16:43.028+0200
+2023-02-17T00:16:43.270+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "AAD B2C"..: timestamp=2023-02-17T00:16:43.270+0200
+2023-02-17T00:16:43.284+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "AAD B2C"..: timestamp=2023-02-17T00:16:43.283+0200
+2023-02-17T00:16:43.294+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "API Management"..: timestamp=2023-02-17T00:16:43.294+0200
+2023-02-17T00:16:43.294+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "API Management"..: timestamp=2023-02-17T00:16:43.294+0200
+2023-02-17T00:16:43.317+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "App Configuration"..: timestamp=2023-02-17T00:16:43.317+0200
+2023-02-17T00:16:43.336+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "App Configuration"..: timestamp=2023-02-17T00:16:43.327+0200
+2023-02-17T00:16:43.378+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Application Insights"..: timestamp=2023-02-17T00:16:43.378+0200
+2023-02-17T00:16:43.383+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Application Insights"..: timestamp=2023-02-17T00:16:43.378+0200
+2023-02-17T00:16:43.389+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "AppService"..: timestamp=2023-02-17T00:16:43.389+0200
+2023-02-17T00:16:43.605+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "AppService"..: timestamp=2023-02-17T00:16:43.605+0200
+2023-02-17T00:16:43.669+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Automation"..: timestamp=2023-02-17T00:16:43.667+0200
+2023-02-17T00:16:43.670+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Automation"..: timestamp=2023-02-17T00:16:43.667+0200
+2023-02-17T00:16:43.709+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Batch"..: timestamp=2023-02-17T00:16:43.709+0200
+2023-02-17T00:16:43.720+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Batch"..: timestamp=2023-02-17T00:16:43.709+0200
+2023-02-17T00:16:43.720+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Bot"..: timestamp=2023-02-17T00:16:43.720+0200
+2023-02-17T00:16:43.720+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Bot"..: timestamp=2023-02-17T00:16:43.720+0200
+2023-02-17T00:16:43.725+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Cognitive Services"..: timestamp=2023-02-17T00:16:43.725+0200
+2023-02-17T00:16:43.728+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Cognitive Services"..: timestamp=2023-02-17T00:16:43.725+0200
+2023-02-17T00:16:43.739+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Compute"..: timestamp=2023-02-17T00:16:43.739+0200
+2023-02-17T00:16:43.739+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Compute"..: timestamp=2023-02-17T00:16:43.739+0200
+2023-02-17T00:16:43.758+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Consumption"..: timestamp=2023-02-17T00:16:43.758+0200
+2023-02-17T00:16:43.758+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Consumption"..: timestamp=2023-02-17T00:16:43.758+0200
+2023-02-17T00:16:43.769+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "CosmosDB"..: timestamp=2023-02-17T00:16:43.768+0200
+2023-02-17T00:16:43.769+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "CosmosDB"..: timestamp=2023-02-17T00:16:43.768+0200
+2023-02-17T00:16:43.772+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Container Apps"..: timestamp=2023-02-17T00:16:43.772+0200
+2023-02-17T00:16:43.782+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Container Apps"..: timestamp=2023-02-17T00:16:43.782+0200
+2023-02-17T00:16:43.792+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Cost Management"..: timestamp=2023-02-17T00:16:43.792+0200
+2023-02-17T00:16:43.792+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Cost Management"..: timestamp=2023-02-17T00:16:43.792+0200
+2023-02-17T00:16:43.796+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Dashboard"..: timestamp=2023-02-17T00:16:43.794+0200
+2023-02-17T00:16:43.796+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Dashboard"..: timestamp=2023-02-17T00:16:43.794+0200
+2023-02-17T00:16:43.803+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Databox Edge"..: timestamp=2023-02-17T00:16:43.802+0200
+2023-02-17T00:16:43.804+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Databox Edge"..: timestamp=2023-02-17T00:16:43.804+0200
+2023-02-17T00:16:43.806+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DataBricks"..: timestamp=2023-02-17T00:16:43.806+0200
+2023-02-17T00:16:43.807+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DataBricks"..: timestamp=2023-02-17T00:16:43.806+0200
+2023-02-17T00:16:43.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Digital Twins"..: timestamp=2023-02-17T00:16:43.810+0200
+2023-02-17T00:16:43.811+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Digital Twins"..: timestamp=2023-02-17T00:16:43.810+0200
+2023-02-17T00:16:43.822+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Disks"..: timestamp=2023-02-17T00:16:43.822+0200
+2023-02-17T00:16:43.822+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Disks"..: timestamp=2023-02-17T00:16:43.822+0200
+2023-02-17T00:16:43.837+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DomainServices"..: timestamp=2023-02-17T00:16:43.830+0200
+2023-02-17T00:16:43.837+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DomainServices"..: timestamp=2023-02-17T00:16:43.830+0200
+2023-02-17T00:16:43.839+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "EventHub"..: timestamp=2023-02-17T00:16:43.839+0200
+2023-02-17T00:16:43.840+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "EventHub"..: timestamp=2023-02-17T00:16:43.839+0200
+2023-02-17T00:16:43.851+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Fluid Relay"..: timestamp=2023-02-17T00:16:43.851+0200
+2023-02-17T00:16:43.851+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Fluid Relay"..: timestamp=2023-02-17T00:16:43.851+0200
+2023-02-17T00:16:43.858+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Hub"..: timestamp=2023-02-17T00:16:43.858+0200
+2023-02-17T00:16:43.858+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Hub"..: timestamp=2023-02-17T00:16:43.858+0200
+2023-02-17T00:16:43.862+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Central"..: timestamp=2023-02-17T00:16:43.862+0200
+2023-02-17T00:16:43.866+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Central"..: timestamp=2023-02-17T00:16:43.862+0200
+2023-02-17T00:16:43.870+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "KeyVault"..: timestamp=2023-02-17T00:16:43.870+0200
+2023-02-17T00:16:43.879+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "KeyVault"..: timestamp=2023-02-17T00:16:43.876+0200
+2023-02-17T00:16:43.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Lab Service"..: timestamp=2023-02-17T00:16:43.880+0200
+2023-02-17T00:16:43.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Lab Service"..: timestamp=2023-02-17T00:16:43.880+0200
+2023-02-17T00:16:43.891+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Load Balancer"..: timestamp=2023-02-17T00:16:43.891+0200
+2023-02-17T00:16:43.891+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Load Balancer"..: timestamp=2023-02-17T00:16:43.891+0200
+2023-02-17T00:16:43.901+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Log Analytics"..: timestamp=2023-02-17T00:16:43.901+0200
+2023-02-17T00:16:43.901+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Log Analytics"..: timestamp=2023-02-17T00:16:43.901+0200
+2023-02-17T00:16:43.912+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Media"..: timestamp=2023-02-17T00:16:43.912+0200
+2023-02-17T00:16:43.913+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Media"..: timestamp=2023-02-17T00:16:43.912+0200
+2023-02-17T00:16:43.919+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Machine Learning"..: timestamp=2023-02-17T00:16:43.919+0200
+2023-02-17T00:16:43.919+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Machine Learning"..: timestamp=2023-02-17T00:16:43.919+0200
+2023-02-17T00:16:43.930+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Monitor"..: timestamp=2023-02-17T00:16:43.930+0200
+2023-02-17T00:16:43.939+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Monitor"..: timestamp=2023-02-17T00:16:43.935+0200
+2023-02-17T00:16:43.955+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Mobile Network"..: timestamp=2023-02-17T00:16:43.955+0200
+2023-02-17T00:16:43.961+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Mobile Network"..: timestamp=2023-02-17T00:16:43.955+0200
+2023-02-17T00:16:43.964+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:43.963+0200
+2023-02-17T00:16:43.968+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:43.968+0200
+2023-02-17T00:16:43.980+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Network"..: timestamp=2023-02-17T00:16:43.980+0200
+2023-02-17T00:16:43.980+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Network"..: timestamp=2023-02-17T00:16:43.980+0200
+2023-02-17T00:16:44.012+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Nginx"..: timestamp=2023-02-17T00:16:44.011+0200
+2023-02-17T00:16:44.012+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Nginx"..: timestamp=2023-02-17T00:16:44.011+0200
+2023-02-17T00:16:44.018+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Policy"..: timestamp=2023-02-17T00:16:44.018+0200
+2023-02-17T00:16:44.022+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Policy"..: timestamp=2023-02-17T00:16:44.021+0200
+2023-02-17T00:16:44.030+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Private DNS Resolver"..: timestamp=2023-02-17T00:16:44.030+0200
+2023-02-17T00:16:44.047+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Private DNS Resolver"..: timestamp=2023-02-17T00:16:44.037+0200
+2023-02-17T00:16:44.056+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Recovery Services"..: timestamp=2023-02-17T00:16:44.053+0200
+2023-02-17T00:16:44.061+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Recovery Services"..: timestamp=2023-02-17T00:16:44.061+0200
+2023-02-17T00:16:44.068+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Resources"..: timestamp=2023-02-17T00:16:44.068+0200
+2023-02-17T00:16:44.068+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Resources"..: timestamp=2023-02-17T00:16:44.068+0200
+2023-02-17T00:16:44.090+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Sentinel"..: timestamp=2023-02-17T00:16:44.090+0200
+2023-02-17T00:16:44.099+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Sentinel"..: timestamp=2023-02-17T00:16:44.090+0200
+2023-02-17T00:16:44.134+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ServiceConnector"..: timestamp=2023-02-17T00:16:44.123+0200
+2023-02-17T00:16:44.134+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ServiceConnector"..: timestamp=2023-02-17T00:16:44.123+0200
+2023-02-17T00:16:44.135+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Service Fabric Managed Clusters"..: timestamp=2023-02-17T00:16:44.135+0200
+2023-02-17T00:16:44.135+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Service Fabric Managed Clusters"..: timestamp=2023-02-17T00:16:44.135+0200
+2023-02-17T00:16:44.152+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Storage"..: timestamp=2023-02-17T00:16:44.152+0200
+2023-02-17T00:16:44.152+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Storage"..: timestamp=2023-02-17T00:16:44.152+0200
+2023-02-17T00:16:44.162+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Orbital"..: timestamp=2023-02-17T00:16:44.154+0200
+2023-02-17T00:16:44.162+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Orbital"..: timestamp=2023-02-17T00:16:44.154+0200
+2023-02-17T00:16:44.163+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Stream Analytics"..: timestamp=2023-02-17T00:16:44.163+0200
+2023-02-17T00:16:44.163+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Stream Analytics"..: timestamp=2023-02-17T00:16:44.163+0200
+2023-02-17T00:16:44.194+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Search"..: timestamp=2023-02-17T00:16:44.194+0200
+2023-02-17T00:16:44.194+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Search"..: timestamp=2023-02-17T00:16:44.194+0200
+2023-02-17T00:16:44.196+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Spring Cloud"..: timestamp=2023-02-17T00:16:44.196+0200
+2023-02-17T00:16:44.198+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Spring Cloud"..: timestamp=2023-02-17T00:16:44.196+0200
+2023-02-17T00:16:44.214+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "VMware"..: timestamp=2023-02-17T00:16:44.214+0200
+2023-02-17T00:16:44.220+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "VMware"..: timestamp=2023-02-17T00:16:44.214+0200
+2023-02-17T00:16:44.224+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Web"..: timestamp=2023-02-17T00:16:44.224+0200
+2023-02-17T00:16:44.227+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Web"..: timestamp=2023-02-17T00:16:44.227+0200
+2023-02-17T00:16:44.229+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Container Services"..: timestamp=2023-02-17T00:16:44.229+0200
+2023-02-17T00:16:44.229+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Container Services"..: timestamp=2023-02-17T00:16:44.229+0200
+2023-02-17T00:16:44.253+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "LoadTestService"..: timestamp=2023-02-17T00:16:44.240+0200
+2023-02-17T00:16:44.254+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "LoadTestService"..: timestamp=2023-02-17T00:16:44.240+0200
+2023-02-17T00:16:44.257+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:44.256+0200
+2023-02-17T00:16:44.257+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:44.256+0200
+2023-02-17T00:16:44.258+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Advisor"..: timestamp=2023-02-17T00:16:44.258+0200
+2023-02-17T00:16:44.261+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Advisor"..: timestamp=2023-02-17T00:16:44.261+0200
+2023-02-17T00:16:44.266+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Analysis Services"..: timestamp=2023-02-17T00:16:44.265+0200
+2023-02-17T00:16:44.266+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Analysis Services"..: timestamp=2023-02-17T00:16:44.265+0200
+2023-02-17T00:16:44.266+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "API Management"..: timestamp=2023-02-17T00:16:44.265+0200
+2023-02-17T00:16:44.288+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "API Management"..: timestamp=2023-02-17T00:16:44.287+0200
+2023-02-17T00:16:44.319+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "App Configuration"..: timestamp=2023-02-17T00:16:44.319+0200
+2023-02-17T00:16:44.319+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "App Configuration"..: timestamp=2023-02-17T00:16:44.319+0200
+2023-02-17T00:16:44.319+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Spring Cloud"..: timestamp=2023-02-17T00:16:44.319+0200
+2023-02-17T00:16:44.328+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Spring Cloud"..: timestamp=2023-02-17T00:16:44.322+0200
+2023-02-17T00:16:44.344+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Application Insights"..: timestamp=2023-02-17T00:16:44.344+0200
+2023-02-17T00:16:44.349+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Application Insights"..: timestamp=2023-02-17T00:16:44.349+0200
+2023-02-17T00:16:44.351+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Attestation"..: timestamp=2023-02-17T00:16:44.351+0200
+2023-02-17T00:16:44.351+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Attestation"..: timestamp=2023-02-17T00:16:44.351+0200
+2023-02-17T00:16:44.355+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Authorization"..: timestamp=2023-02-17T00:16:44.353+0200
+2023-02-17T00:16:44.355+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Authorization"..: timestamp=2023-02-17T00:16:44.355+0200
+2023-02-17T00:16:44.355+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Automation"..: timestamp=2023-02-17T00:16:44.355+0200
+2023-02-17T00:16:44.362+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Automation"..: timestamp=2023-02-17T00:16:44.362+0200
+2023-02-17T00:16:44.374+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Azure Stack HCI"..: timestamp=2023-02-17T00:16:44.374+0200
+2023-02-17T00:16:44.374+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Azure Stack HCI"..: timestamp=2023-02-17T00:16:44.374+0200
+2023-02-17T00:16:44.374+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Batch"..: timestamp=2023-02-17T00:16:44.374+0200
+2023-02-17T00:16:44.389+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Batch"..: timestamp=2023-02-17T00:16:44.389+0200
+2023-02-17T00:16:44.393+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Billing"..: timestamp=2023-02-17T00:16:44.392+0200
+2023-02-17T00:16:44.393+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Billing"..: timestamp=2023-02-17T00:16:44.392+0200
+2023-02-17T00:16:44.395+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Blueprints"..: timestamp=2023-02-17T00:16:44.395+0200
+2023-02-17T00:16:44.397+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Blueprints"..: timestamp=2023-02-17T00:16:44.397+0200
+2023-02-17T00:16:44.398+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Bot"..: timestamp=2023-02-17T00:16:44.397+0200
+2023-02-17T00:16:44.398+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Bot"..: timestamp=2023-02-17T00:16:44.397+0200
+2023-02-17T00:16:44.412+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "CDN"..: timestamp=2023-02-17T00:16:44.412+0200
+2023-02-17T00:16:44.423+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "CDN"..: timestamp=2023-02-17T00:16:44.423+0200
+2023-02-17T00:16:44.477+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Cognitive Services"..: timestamp=2023-02-17T00:16:44.477+0200
+2023-02-17T00:16:44.477+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Cognitive Services"..: timestamp=2023-02-17T00:16:44.477+0200
+2023-02-17T00:16:44.477+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Communication"..: timestamp=2023-02-17T00:16:44.477+0200
+2023-02-17T00:16:44.477+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Communication"..: timestamp=2023-02-17T00:16:44.477+0200
+2023-02-17T00:16:44.477+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Compute"..: timestamp=2023-02-17T00:16:44.477+0200
+2023-02-17T00:16:44.514+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Compute"..: timestamp=2023-02-17T00:16:44.514+0200
+2023-02-17T00:16:44.549+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Confidential Ledger"..: timestamp=2023-02-17T00:16:44.549+0200
+2023-02-17T00:16:44.555+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Confidential Ledger"..: timestamp=2023-02-17T00:16:44.549+0200
+2023-02-17T00:16:44.555+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Connections"..: timestamp=2023-02-17T00:16:44.549+0200
+2023-02-17T00:16:44.557+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Connections"..: timestamp=2023-02-17T00:16:44.557+0200
+2023-02-17T00:16:44.557+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Container Services"..: timestamp=2023-02-17T00:16:44.557+0200
+2023-02-17T00:16:44.559+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Container Services"..: timestamp=2023-02-17T00:16:44.559+0200
+2023-02-17T00:16:44.584+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Consumption"..: timestamp=2023-02-17T00:16:44.584+0200
+2023-02-17T00:16:44.590+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Consumption"..: timestamp=2023-02-17T00:16:44.590+0200
+2023-02-17T00:16:44.595+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "CosmosDB"..: timestamp=2023-02-17T00:16:44.590+0200
+2023-02-17T00:16:44.607+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "CosmosDB"..: timestamp=2023-02-17T00:16:44.605+0200
+2023-02-17T00:16:44.620+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Custom Providers"..: timestamp=2023-02-17T00:16:44.620+0200
+2023-02-17T00:16:44.632+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Custom Providers"..: timestamp=2023-02-17T00:16:44.620+0200
+2023-02-17T00:16:44.632+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Dashboard"..: timestamp=2023-02-17T00:16:44.620+0200
+2023-02-17T00:16:44.632+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Dashboard"..: timestamp=2023-02-17T00:16:44.620+0200
+2023-02-17T00:16:44.632+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DataBricks"..: timestamp=2023-02-17T00:16:44.620+0200
+2023-02-17T00:16:44.632+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DataBricks"..: timestamp=2023-02-17T00:16:44.620+0200
+2023-02-17T00:16:44.636+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Datadog"..: timestamp=2023-02-17T00:16:44.636+0200
+2023-02-17T00:16:44.636+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Datadog"..: timestamp=2023-02-17T00:16:44.636+0200
+2023-02-17T00:16:44.639+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Data Factory"..: timestamp=2023-02-17T00:16:44.639+0200
+2023-02-17T00:16:44.642+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Data Factory"..: timestamp=2023-02-17T00:16:44.642+0200
+2023-02-17T00:16:44.713+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Database Migration"..: timestamp=2023-02-17T00:16:44.713+0200
+2023-02-17T00:16:44.716+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Database Migration"..: timestamp=2023-02-17T00:16:44.716+0200
+2023-02-17T00:16:44.716+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Databox Edge"..: timestamp=2023-02-17T00:16:44.716+0200
+2023-02-17T00:16:44.718+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Databox Edge"..: timestamp=2023-02-17T00:16:44.716+0200
+2023-02-17T00:16:44.720+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DataProtection"..: timestamp=2023-02-17T00:16:44.720+0200
+2023-02-17T00:16:44.722+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DataProtection"..: timestamp=2023-02-17T00:16:44.722+0200
+2023-02-17T00:16:44.732+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Data Share"..: timestamp=2023-02-17T00:16:44.731+0200
+2023-02-17T00:16:44.737+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Data Share"..: timestamp=2023-02-17T00:16:44.737+0200
+2023-02-17T00:16:44.791+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Desktop Virtualization"..: timestamp=2023-02-17T00:16:44.791+0200
+2023-02-17T00:16:44.791+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Desktop Virtualization"..: timestamp=2023-02-17T00:16:44.791+0200
+2023-02-17T00:16:44.801+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Dev Test"..: timestamp=2023-02-17T00:16:44.801+0200
+2023-02-17T00:16:44.816+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Dev Test"..: timestamp=2023-02-17T00:16:44.816+0200
+2023-02-17T00:16:44.819+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Digital Twins"..: timestamp=2023-02-17T00:16:44.819+0200
+2023-02-17T00:16:44.819+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Digital Twins"..: timestamp=2023-02-17T00:16:44.819+0200
+2023-02-17T00:16:44.826+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DNS"..: timestamp=2023-02-17T00:16:44.826+0200
+2023-02-17T00:16:44.827+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DNS"..: timestamp=2023-02-17T00:16:44.827+0200
+2023-02-17T00:16:44.843+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DomainServices"..: timestamp=2023-02-17T00:16:44.840+0200
+2023-02-17T00:16:44.843+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DomainServices"..: timestamp=2023-02-17T00:16:44.840+0200
+2023-02-17T00:16:44.846+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Elastic"..: timestamp=2023-02-17T00:16:44.846+0200
+2023-02-17T00:16:44.846+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Elastic"..: timestamp=2023-02-17T00:16:44.846+0200
+2023-02-17T00:16:44.849+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "EventGrid"..: timestamp=2023-02-17T00:16:44.848+0200
+2023-02-17T00:16:44.852+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "EventGrid"..: timestamp=2023-02-17T00:16:44.852+0200
+2023-02-17T00:16:44.860+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "EventHub"..: timestamp=2023-02-17T00:16:44.859+0200
+2023-02-17T00:16:44.864+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "EventHub"..: timestamp=2023-02-17T00:16:44.864+0200
+2023-02-17T00:16:44.869+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Firewall"..: timestamp=2023-02-17T00:16:44.864+0200
+2023-02-17T00:16:44.873+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Firewall"..: timestamp=2023-02-17T00:16:44.872+0200
+2023-02-17T00:16:44.884+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "FrontDoor"..: timestamp=2023-02-17T00:16:44.884+0200
+2023-02-17T00:16:44.884+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "FrontDoor"..: timestamp=2023-02-17T00:16:44.884+0200
+2023-02-17T00:16:44.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "HPC Cache"..: timestamp=2023-02-17T00:16:44.894+0200
+2023-02-17T00:16:44.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "HPC Cache"..: timestamp=2023-02-17T00:16:44.894+0200
+2023-02-17T00:16:44.912+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Hardware Security Module"..: timestamp=2023-02-17T00:16:44.912+0200
+2023-02-17T00:16:44.912+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Hardware Security Module"..: timestamp=2023-02-17T00:16:44.912+0200
+2023-02-17T00:16:44.912+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "HDInsight"..: timestamp=2023-02-17T00:16:44.912+0200
+2023-02-17T00:16:44.913+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "HDInsight"..: timestamp=2023-02-17T00:16:44.913+0200
+2023-02-17T00:16:44.927+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Health Care"..: timestamp=2023-02-17T00:16:44.926+0200
+2023-02-17T00:16:44.939+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Health Care"..: timestamp=2023-02-17T00:16:44.939+0200
+2023-02-17T00:16:44.946+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Hub"..: timestamp=2023-02-17T00:16:44.946+0200
+2023-02-17T00:16:44.955+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Hub"..: timestamp=2023-02-17T00:16:44.955+0200
+2023-02-17T00:16:44.979+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Central"..: timestamp=2023-02-17T00:16:44.979+0200
+2023-02-17T00:16:44.981+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Central"..: timestamp=2023-02-17T00:16:44.979+0200
+2023-02-17T00:16:44.981+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "KeyVault"..: timestamp=2023-02-17T00:16:44.979+0200
+2023-02-17T00:16:44.992+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "KeyVault"..: timestamp=2023-02-17T00:16:44.992+0200
+2023-02-17T00:16:45.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Kusto"..: timestamp=2023-02-17T00:16:45.003+0200
+2023-02-17T00:16:45.008+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Kusto"..: timestamp=2023-02-17T00:16:45.008+0200
+2023-02-17T00:16:45.018+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Legacy"..: timestamp=2023-02-17T00:16:45.018+0200
+2023-02-17T00:16:45.024+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Legacy"..: timestamp=2023-02-17T00:16:45.018+0200
+2023-02-17T00:16:45.027+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Load Balancer"..: timestamp=2023-02-17T00:16:45.025+0200
+2023-02-17T00:16:45.037+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Load Balancer"..: timestamp=2023-02-17T00:16:45.035+0200
+2023-02-17T00:16:45.039+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Log Analytics"..: timestamp=2023-02-17T00:16:45.039+0200
+2023-02-17T00:16:45.048+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Log Analytics"..: timestamp=2023-02-17T00:16:45.048+0200
+2023-02-17T00:16:45.059+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Logic"..: timestamp=2023-02-17T00:16:45.057+0200
+2023-02-17T00:16:45.073+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Logic"..: timestamp=2023-02-17T00:16:45.073+0200
+2023-02-17T00:16:45.142+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Logz"..: timestamp=2023-02-17T00:16:45.142+0200
+2023-02-17T00:16:45.142+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Logz"..: timestamp=2023-02-17T00:16:45.142+0200
+2023-02-17T00:16:45.148+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Machine Learning"..: timestamp=2023-02-17T00:16:45.148+0200
+2023-02-17T00:16:45.151+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Machine Learning"..: timestamp=2023-02-17T00:16:45.151+0200
+2023-02-17T00:16:45.165+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Maintenance"..: timestamp=2023-02-17T00:16:45.152+0200
+2023-02-17T00:16:45.168+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Maintenance"..: timestamp=2023-02-17T00:16:45.167+0200
+2023-02-17T00:16:45.168+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Managed Applications"..: timestamp=2023-02-17T00:16:45.168+0200
+2023-02-17T00:16:45.168+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Managed Applications"..: timestamp=2023-02-17T00:16:45.168+0200
+2023-02-17T00:16:45.168+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Lighthouse"..: timestamp=2023-02-17T00:16:45.168+0200
+2023-02-17T00:16:45.168+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Lighthouse"..: timestamp=2023-02-17T00:16:45.168+0200
+2023-02-17T00:16:45.170+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Management Group"..: timestamp=2023-02-17T00:16:45.170+0200
+2023-02-17T00:16:45.170+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Management Group"..: timestamp=2023-02-17T00:16:45.170+0200
+2023-02-17T00:16:45.170+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Maps"..: timestamp=2023-02-17T00:16:45.170+0200
+2023-02-17T00:16:45.171+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Maps"..: timestamp=2023-02-17T00:16:45.170+0200
+2023-02-17T00:16:45.173+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "MariaDB"..: timestamp=2023-02-17T00:16:45.172+0200
+2023-02-17T00:16:45.176+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "MariaDB"..: timestamp=2023-02-17T00:16:45.176+0200
+2023-02-17T00:16:45.178+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Media"..: timestamp=2023-02-17T00:16:45.178+0200
+2023-02-17T00:16:45.178+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Media"..: timestamp=2023-02-17T00:16:45.178+0200
+2023-02-17T00:16:45.201+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Mixed Reality"..: timestamp=2023-02-17T00:16:45.200+0200
+2023-02-17T00:16:45.201+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Mixed Reality"..: timestamp=2023-02-17T00:16:45.200+0200
+2023-02-17T00:16:45.201+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Monitor"..: timestamp=2023-02-17T00:16:45.200+0200
+2023-02-17T00:16:45.210+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Monitor"..: timestamp=2023-02-17T00:16:45.210+0200
+2023-02-17T00:16:45.228+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:45.228+0200
+2023-02-17T00:16:45.228+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:45.228+0200
+2023-02-17T00:16:45.228+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:45.228+0200
+2023-02-17T00:16:45.239+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:45.239+0200
+2023-02-17T00:16:45.256+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "MySQL"..: timestamp=2023-02-17T00:16:45.249+0200
+2023-02-17T00:16:45.259+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "MySQL"..: timestamp=2023-02-17T00:16:45.258+0200
+2023-02-17T00:16:45.264+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "NetApp"..: timestamp=2023-02-17T00:16:45.263+0200
+2023-02-17T00:16:45.267+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "NetApp"..: timestamp=2023-02-17T00:16:45.267+0200
+2023-02-17T00:16:45.270+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Network"..: timestamp=2023-02-17T00:16:45.269+0200
+2023-02-17T00:16:45.321+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Network"..: timestamp=2023-02-17T00:16:45.321+0200
+2023-02-17T00:16:45.379+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Notification Hub"..: timestamp=2023-02-17T00:16:45.379+0200
+2023-02-17T00:16:45.379+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Notification Hub"..: timestamp=2023-02-17T00:16:45.379+0200
+2023-02-17T00:16:45.382+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Policy"..: timestamp=2023-02-17T00:16:45.382+0200
+2023-02-17T00:16:45.383+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Policy"..: timestamp=2023-02-17T00:16:45.383+0200
+2023-02-17T00:16:45.391+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Portal"..: timestamp=2023-02-17T00:16:45.390+0200
+2023-02-17T00:16:45.391+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Portal"..: timestamp=2023-02-17T00:16:45.390+0200
+2023-02-17T00:16:45.393+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "PostgreSQL"..: timestamp=2023-02-17T00:16:45.393+0200
+2023-02-17T00:16:45.398+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "PostgreSQL"..: timestamp=2023-02-17T00:16:45.398+0200
+2023-02-17T00:16:45.402+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "PowerBI"..: timestamp=2023-02-17T00:16:45.401+0200
+2023-02-17T00:16:45.402+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "PowerBI"..: timestamp=2023-02-17T00:16:45.401+0200
+2023-02-17T00:16:45.402+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Private DNS"..: timestamp=2023-02-17T00:16:45.401+0200
+2023-02-17T00:16:45.409+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Private DNS"..: timestamp=2023-02-17T00:16:45.408+0200
+2023-02-17T00:16:45.410+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Purview"..: timestamp=2023-02-17T00:16:45.410+0200
+2023-02-17T00:16:45.410+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Purview"..: timestamp=2023-02-17T00:16:45.410+0200
+2023-02-17T00:16:45.410+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Recovery Services"..: timestamp=2023-02-17T00:16:45.410+0200
+2023-02-17T00:16:45.422+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Recovery Services"..: timestamp=2023-02-17T00:16:45.422+0200
+2023-02-17T00:16:45.427+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Redis"..: timestamp=2023-02-17T00:16:45.427+0200
+2023-02-17T00:16:45.427+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Redis"..: timestamp=2023-02-17T00:16:45.427+0200
+2023-02-17T00:16:45.428+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Redis Enterprise"..: timestamp=2023-02-17T00:16:45.428+0200
+2023-02-17T00:16:45.436+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Redis Enterprise"..: timestamp=2023-02-17T00:16:45.436+0200
+2023-02-17T00:16:45.445+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Relay"..: timestamp=2023-02-17T00:16:45.443+0200
+2023-02-17T00:16:45.445+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Relay"..: timestamp=2023-02-17T00:16:45.444+0200
+2023-02-17T00:16:45.446+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Resources"..: timestamp=2023-02-17T00:16:45.445+0200
+2023-02-17T00:16:45.448+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Resources"..: timestamp=2023-02-17T00:16:45.448+0200
+2023-02-17T00:16:45.449+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Search"..: timestamp=2023-02-17T00:16:45.448+0200
+2023-02-17T00:16:45.449+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Search"..: timestamp=2023-02-17T00:16:45.448+0200
+2023-02-17T00:16:45.451+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Security Center"..: timestamp=2023-02-17T00:16:45.450+0200
+2023-02-17T00:16:45.451+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Security Center"..: timestamp=2023-02-17T00:16:45.450+0200
+2023-02-17T00:16:45.471+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Sentinel"..: timestamp=2023-02-17T00:16:45.467+0200
+2023-02-17T00:16:45.573+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Sentinel"..: timestamp=2023-02-17T00:16:45.573+0200
+2023-02-17T00:16:45.721+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ServiceBus"..: timestamp=2023-02-17T00:16:45.721+0200
+2023-02-17T00:16:45.791+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ServiceBus"..: timestamp=2023-02-17T00:16:45.791+0200
+2023-02-17T00:16:45.806+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Service Fabric"..: timestamp=2023-02-17T00:16:45.805+0200
+2023-02-17T00:16:45.806+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Service Fabric"..: timestamp=2023-02-17T00:16:45.805+0200
+2023-02-17T00:16:45.806+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "SignalR"..: timestamp=2023-02-17T00:16:45.805+0200
+2023-02-17T00:16:45.811+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "SignalR"..: timestamp=2023-02-17T00:16:45.811+0200
+2023-02-17T00:16:45.818+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "SQL"..: timestamp=2023-02-17T00:16:45.818+0200
+2023-02-17T00:16:45.822+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "SQL"..: timestamp=2023-02-17T00:16:45.822+0200
+2023-02-17T00:16:45.827+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Storage"..: timestamp=2023-02-17T00:16:45.827+0200
+2023-02-17T00:16:45.848+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Storage"..: timestamp=2023-02-17T00:16:45.848+0200
+2023-02-17T00:16:45.860+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Stream Analytics"..: timestamp=2023-02-17T00:16:45.860+0200
+2023-02-17T00:16:45.867+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Stream Analytics"..: timestamp=2023-02-17T00:16:45.867+0200
+2023-02-17T00:16:45.870+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Subscription"..: timestamp=2023-02-17T00:16:45.870+0200
+2023-02-17T00:16:45.877+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Subscription"..: timestamp=2023-02-17T00:16:45.877+0200
+2023-02-17T00:16:45.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Synapse"..: timestamp=2023-02-17T00:16:45.879+0200
+2023-02-17T00:16:45.886+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Synapse"..: timestamp=2023-02-17T00:16:45.886+0200
+2023-02-17T00:16:45.897+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Time Series Insights"..: timestamp=2023-02-17T00:16:45.897+0200
+2023-02-17T00:16:45.897+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Time Series Insights"..: timestamp=2023-02-17T00:16:45.897+0200
+2023-02-17T00:16:45.911+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Traffic Manager"..: timestamp=2023-02-17T00:16:45.911+0200
+2023-02-17T00:16:45.913+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Traffic Manager"..: timestamp=2023-02-17T00:16:45.912+0200
+2023-02-17T00:16:45.913+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Video Analyzer"..: timestamp=2023-02-17T00:16:45.913+0200
+2023-02-17T00:16:45.913+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Video Analyzer"..: timestamp=2023-02-17T00:16:45.913+0200
+2023-02-17T00:16:45.914+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "VMware"..: timestamp=2023-02-17T00:16:45.913+0200
+2023-02-17T00:16:45.914+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "VMware"..: timestamp=2023-02-17T00:16:45.914+0200
+2023-02-17T00:16:45.916+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Web"..: timestamp=2023-02-17T00:16:45.915+0200
+2023-02-17T00:16:45.927+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Web"..: timestamp=2023-02-17T00:16:45.927+0200
+2023-02-17T00:16:45.945+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-02-17T00:16:45.945+0200
+2023-02-17T00:16:45.952+0200 [DEBUG] provider: using plugin: version=5
+2023-02-17T00:16:47.200+0200 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2023-02-17T00:16:47.240+0200 [DEBUG] provider: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe pid=5140
+2023-02-17T00:16:47.241+0200 [DEBUG] provider: plugin exited
+2023-02-17T00:16:47.252+0200 [DEBUG] Building and walking validate graph
+2023-02-17T00:16:47.274+0200 [DEBUG] ProviderTransformer: "azurerm_windows_virtual_machine.vmapplication" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.274+0200 [DEBUG] ProviderTransformer: "azurerm_resource_group.plangrp" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.274+0200 [DEBUG] ProviderTransformer: "azurerm_virtual_network.appnetwork" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.274+0200 [DEBUG] ProviderTransformer: "azurerm_virtual_machine_extension.vmextension" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.274+0200 [DEBUG] ProviderTransformer: "azurerm_storage_blob.IISConfig" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.274+0200 [DEBUG] ProviderTransformer: "azurerm_network_interface.appinterface" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "azurerm_subnet.subnets" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "azurerm_subnet_network_security_group_association.appnsglink" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "azurerm_storage_container.data" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "azurerm_public_ip.appip" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "azurerm_storage_account.vmstore1234567" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "azurerm_network_security_group.appnsg" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "data.azurerm_key_vault_secret.vmpassword" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.275+0200 [DEBUG] ProviderTransformer: "data.azurerm_key_vault.newkeyvault987654" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2023-02-17T00:16:47.279+0200 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_subnet_network_security_group_association.appnsglink" references: [azurerm_virtual_network.appnetwork azurerm_network_security_group.appnsg var.number_of_subnets azurerm_network_security_group.appnsg azurerm_subnet.subnets]
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_storage_container.data" references: [azurerm_storage_account.vmstore1234567]
+2023-02-17T00:16:47.279+0200 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2023-02-17T00:16:47.279+0200 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_windows_virtual_machine.vmapplication" references: [azurerm_network_interface.appinterface azurerm_resource_group.plangrp var.number_of_machines data.azurerm_key_vault_secret.vmpassword local.location (expand) azurerm_network_interface.appinterface local.resource_group_name (expand)]
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "var.number_of_machines" references: []
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_resource_group.plangrp" references: [local.location (expand) local.resource_group_name (expand)]
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_network_security_group.appnsg" references: [azurerm_resource_group.plangrp local.resource_group_name (expand) local.location (expand)]
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "local.resource_group_name (expand)" references: []
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_virtual_network.appnetwork" references: [azurerm_resource_group.plangrp local.virtual_network (expand) local.virtual_network (expand) local.location (expand) local.resource_group_name (expand)]
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "data.azurerm_key_vault_secret.vmpassword" references: [data.azurerm_key_vault.newkeyvault987654]
+2023-02-17T00:16:47.279+0200 [DEBUG] ReferenceTransformer: "azurerm_public_ip.appip" references: [azurerm_resource_group.plangrp local.location (expand) local.resource_group_name (expand)]
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "azurerm_storage_account.vmstore1234567" references: [azurerm_resource_group.plangrp local.location (expand) local.resource_group_name (expand)]
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "data.azurerm_key_vault.newkeyvault987654" references: []
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "local.virtual_network (expand)" references: []
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/azurerm\"]" references: []
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "azurerm_storage_blob.IISConfig" references: [azurerm_storage_account.vmstore1234567]
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "azurerm_virtual_machine_extension.vmextension" references: [azurerm_storage_account.vmstore1234567 azurerm_windows_virtual_machine.vmapplication]
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "var.number_of_subnets" references: []
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "local.location (expand)" references: []
+2023-02-17T00:16:47.282+0200 [DEBUG] ReferenceTransformer: "azurerm_subnet.subnets" references: [azurerm_virtual_network.appnetwork local.resource_group_name (expand) local.virtual_network (expand)]
+2023-02-17T00:16:47.283+0200 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2023-02-17T00:16:47.283+0200 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2023-02-17T00:16:47.283+0200 [DEBUG] ReferenceTransformer: "azurerm_network_interface.appinterface" references: [azurerm_subnet.subnets var.number_of_machines local.resource_group_name (expand) local.location (expand) azurerm_public_ip.appip azurerm_subnet.subnets]
+2023-02-17T00:16:47.289+0200 [DEBUG] Starting graph walk: walkValidate
+2023-02-17T00:16:47.324+0200 [DEBUG] created provider logger: level=debug
+2023-02-17T00:16:47.324+0200 [INFO]  provider: configuring client automatic mTLS
+2023-02-17T00:16:47.345+0200 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe args=[.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe]
+2023-02-17T00:16:47.367+0200 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe pid=2536
+2023-02-17T00:16:47.367+0200 [DEBUG] provider: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe
+2023-02-17T00:16:47.579+0200 [INFO]  provider.terraform-provider-azurerm_v3.43.0_x5.exe: configuring server automatic mTLS: timestamp=2023-02-17T00:16:47.501+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "AAD B2C"..: timestamp=2023-02-17T00:16:47.603+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "AAD B2C"..: timestamp=2023-02-17T00:16:47.603+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "API Management"..: timestamp=2023-02-17T00:16:47.603+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "API Management"..: timestamp=2023-02-17T00:16:47.603+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "App Configuration"..: timestamp=2023-02-17T00:16:47.603+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "App Configuration"..: timestamp=2023-02-17T00:16:47.619+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Application Insights"..: timestamp=2023-02-17T00:16:47.619+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Application Insights"..: timestamp=2023-02-17T00:16:47.619+0200
+2023-02-17T00:16:47.634+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "AppService"..: timestamp=2023-02-17T00:16:47.619+0200
+2023-02-17T00:16:47.728+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "AppService"..: timestamp=2023-02-17T00:16:47.697+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Automation"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Automation"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Batch"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Batch"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Bot"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Bot"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Cognitive Services"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Cognitive Services"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Compute"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Compute"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Consumption"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Consumption"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "CosmosDB"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "CosmosDB"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Container Apps"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Container Apps"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Cost Management"..: timestamp=2023-02-17T00:16:47.779+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Cost Management"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Dashboard"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Dashboard"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Databox Edge"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Databox Edge"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DataBricks"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DataBricks"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Digital Twins"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.810+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Digital Twins"..: timestamp=2023-02-17T00:16:47.795+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Disks"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Disks"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DomainServices"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DomainServices"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "EventHub"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "EventHub"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Fluid Relay"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Fluid Relay"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Hub"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Hub"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Central"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Central"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "KeyVault"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "KeyVault"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Lab Service"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Lab Service"..: timestamp=2023-02-17T00:16:47.902+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Load Balancer"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Load Balancer"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Log Analytics"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Log Analytics"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Media"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Media"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Machine Learning"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Machine Learning"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Monitor"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Monitor"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Mobile Network"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Mobile Network"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:47.918+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Network"..: timestamp=2023-02-17T00:16:47.933+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Network"..: timestamp=2023-02-17T00:16:47.933+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Nginx"..: timestamp=2023-02-17T00:16:47.933+0200
+2023-02-17T00:16:47.937+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Nginx"..: timestamp=2023-02-17T00:16:47.933+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Policy"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Policy"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Private DNS Resolver"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Private DNS Resolver"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Recovery Services"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Recovery Services"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Resources"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.972+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Resources"..: timestamp=2023-02-17T00:16:47.972+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Sentinel"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Sentinel"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ServiceConnector"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ServiceConnector"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Service Fabric Managed Clusters"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Service Fabric Managed Clusters"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Storage"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Storage"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Orbital"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Orbital"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Stream Analytics"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Stream Analytics"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Search"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Search"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Spring Cloud"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Spring Cloud"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "VMware"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "VMware"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Web"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Web"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Container Services"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:47.996+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Container Services"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "LoadTestService"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "LoadTestService"..: timestamp=2023-02-17T00:16:47.976+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Advisor"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Advisor"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Analysis Services"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Analysis Services"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "API Management"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "API Management"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "App Configuration"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.003+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "App Configuration"..: timestamp=2023-02-17T00:16:47.988+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Spring Cloud"..: timestamp=2023-02-17T00:16:48.055+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Spring Cloud"..: timestamp=2023-02-17T00:16:48.055+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Application Insights"..: timestamp=2023-02-17T00:16:48.063+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Application Insights"..: timestamp=2023-02-17T00:16:48.063+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Attestation"..: timestamp=2023-02-17T00:16:48.071+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Attestation"..: timestamp=2023-02-17T00:16:48.082+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Authorization"..: timestamp=2023-02-17T00:16:48.082+0200
+2023-02-17T00:16:48.082+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Authorization"..: timestamp=2023-02-17T00:16:48.082+0200
+2023-02-17T00:16:48.085+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Automation"..: timestamp=2023-02-17T00:16:48.082+0200
+2023-02-17T00:16:48.190+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Automation"..: timestamp=2023-02-17T00:16:48.112+0200
+2023-02-17T00:16:48.190+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Azure Stack HCI"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.190+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Azure Stack HCI"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Batch"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Batch"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Billing"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Billing"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Blueprints"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Blueprints"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Bot"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Bot"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "CDN"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.195+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "CDN"..: timestamp=2023-02-17T00:16:48.127+0200
+2023-02-17T00:16:48.335+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Cognitive Services"..: timestamp=2023-02-17T00:16:48.303+0200
+2023-02-17T00:16:48.335+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Cognitive Services"..: timestamp=2023-02-17T00:16:48.303+0200
+2023-02-17T00:16:48.335+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Communication"..: timestamp=2023-02-17T00:16:48.303+0200
+2023-02-17T00:16:48.335+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Communication"..: timestamp=2023-02-17T00:16:48.303+0200
+2023-02-17T00:16:48.335+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Compute"..: timestamp=2023-02-17T00:16:48.303+0200
+2023-02-17T00:16:48.335+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Compute"..: timestamp=2023-02-17T00:16:48.303+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Confidential Ledger"..: timestamp=2023-02-17T00:16:48.586+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Confidential Ledger"..: timestamp=2023-02-17T00:16:48.586+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Connections"..: timestamp=2023-02-17T00:16:48.586+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Connections"..: timestamp=2023-02-17T00:16:48.586+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Container Services"..: timestamp=2023-02-17T00:16:48.586+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Container Services"..: timestamp=2023-02-17T00:16:48.586+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Consumption"..: timestamp=2023-02-17T00:16:48.621+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Consumption"..: timestamp=2023-02-17T00:16:48.621+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "CosmosDB"..: timestamp=2023-02-17T00:16:48.621+0200
+2023-02-17T00:16:48.621+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "CosmosDB"..: timestamp=2023-02-17T00:16:48.621+0200
+2023-02-17T00:16:48.643+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Custom Providers"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.643+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Custom Providers"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Dashboard"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Dashboard"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DataBricks"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DataBricks"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Datadog"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Datadog"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Data Factory"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Data Factory"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Database Migration"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Database Migration"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Databox Edge"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Databox Edge"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DataProtection"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DataProtection"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Data Share"..: timestamp=2023-02-17T00:16:48.624+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Data Share"..: timestamp=2023-02-17T00:16:48.640+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Desktop Virtualization"..: timestamp=2023-02-17T00:16:48.643+0200
+2023-02-17T00:16:48.650+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Desktop Virtualization"..: timestamp=2023-02-17T00:16:48.643+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Dev Test"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Dev Test"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Digital Twins"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Digital Twins"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DNS"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DNS"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "DomainServices"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "DomainServices"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Elastic"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Elastic"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "EventGrid"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.664+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "EventGrid"..: timestamp=2023-02-17T00:16:48.656+0200
+2023-02-17T00:16:48.682+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "EventHub"..: timestamp=2023-02-17T00:16:48.678+0200
+2023-02-17T00:16:48.700+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "EventHub"..: timestamp=2023-02-17T00:16:48.689+0200
+2023-02-17T00:16:48.717+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Firewall"..: timestamp=2023-02-17T00:16:48.715+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Firewall"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "FrontDoor"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "FrontDoor"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "HPC Cache"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "HPC Cache"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Hardware Security Module"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Hardware Security Module"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "HDInsight"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "HDInsight"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Health Care"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Health Care"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Hub"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Hub"..: timestamp=2023-02-17T00:16:48.746+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "IoT Central"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "IoT Central"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "KeyVault"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "KeyVault"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Kusto"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Kusto"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Legacy"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Legacy"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Load Balancer"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Load Balancer"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Log Analytics"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.762+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Log Analytics"..: timestamp=2023-02-17T00:16:48.762+0200
+2023-02-17T00:16:48.768+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Logic"..: timestamp=2023-02-17T00:16:48.767+0200
+2023-02-17T00:16:48.768+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Logic"..: timestamp=2023-02-17T00:16:48.767+0200
+2023-02-17T00:16:48.771+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Logz"..: timestamp=2023-02-17T00:16:48.771+0200
+2023-02-17T00:16:48.772+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Logz"..: timestamp=2023-02-17T00:16:48.771+0200
+2023-02-17T00:16:48.772+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Machine Learning"..: timestamp=2023-02-17T00:16:48.771+0200
+2023-02-17T00:16:48.772+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Machine Learning"..: timestamp=2023-02-17T00:16:48.772+0200
+2023-02-17T00:16:48.772+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Maintenance"..: timestamp=2023-02-17T00:16:48.772+0200
+2023-02-17T00:16:48.772+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Maintenance"..: timestamp=2023-02-17T00:16:48.772+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Managed Applications"..: timestamp=2023-02-17T00:16:48.772+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Managed Applications"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Lighthouse"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Lighthouse"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Management Group"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Management Group"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Maps"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Maps"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "MariaDB"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.773+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "MariaDB"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.774+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Media"..: timestamp=2023-02-17T00:16:48.773+0200
+2023-02-17T00:16:48.774+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Media"..: timestamp=2023-02-17T00:16:48.774+0200
+2023-02-17T00:16:48.784+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Mixed Reality"..: timestamp=2023-02-17T00:16:48.784+0200
+2023-02-17T00:16:48.784+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Mixed Reality"..: timestamp=2023-02-17T00:16:48.784+0200
+2023-02-17T00:16:48.784+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Monitor"..: timestamp=2023-02-17T00:16:48.784+0200
+2023-02-17T00:16:48.785+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Monitor"..: timestamp=2023-02-17T00:16:48.785+0200
+2023-02-17T00:16:48.788+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:48.787+0200
+2023-02-17T00:16:48.788+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ManagedIdentity"..: timestamp=2023-02-17T00:16:48.788+0200
+2023-02-17T00:16:48.788+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:48.788+0200
+2023-02-17T00:16:48.788+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Microsoft SQL Server / Azure SQL"..: timestamp=2023-02-17T00:16:48.788+0200
+2023-02-17T00:16:48.860+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "MySQL"..: timestamp=2023-02-17T00:16:48.848+0200
+2023-02-17T00:16:48.860+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "MySQL"..: timestamp=2023-02-17T00:16:48.848+0200
+2023-02-17T00:16:48.860+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "NetApp"..: timestamp=2023-02-17T00:16:48.848+0200
+2023-02-17T00:16:48.860+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "NetApp"..: timestamp=2023-02-17T00:16:48.848+0200
+2023-02-17T00:16:48.879+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Network"..: timestamp=2023-02-17T00:16:48.864+0200
+2023-02-17T00:16:48.879+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Network"..: timestamp=2023-02-17T00:16:48.864+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Notification Hub"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Notification Hub"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Policy"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Policy"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Portal"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Portal"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "PostgreSQL"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "PostgreSQL"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "PowerBI"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "PowerBI"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Private DNS"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Private DNS"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Purview"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Purview"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Recovery Services"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Recovery Services"..: timestamp=2023-02-17T00:16:48.875+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Redis"..: timestamp=2023-02-17T00:16:48.879+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Redis"..: timestamp=2023-02-17T00:16:48.879+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Redis Enterprise"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Redis Enterprise"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Relay"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Relay"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Resources"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.880+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Resources"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Search"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Search"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Security Center"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Security Center"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Sentinel"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Sentinel"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "ServiceBus"..: timestamp=2023-02-17T00:16:48.880+0200
+2023-02-17T00:16:48.883+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "ServiceBus"..: timestamp=2023-02-17T00:16:48.883+0200
+2023-02-17T00:16:48.887+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Service Fabric"..: timestamp=2023-02-17T00:16:48.886+0200
+2023-02-17T00:16:48.887+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Service Fabric"..: timestamp=2023-02-17T00:16:48.887+0200
+2023-02-17T00:16:48.887+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "SignalR"..: timestamp=2023-02-17T00:16:48.887+0200
+2023-02-17T00:16:48.887+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "SignalR"..: timestamp=2023-02-17T00:16:48.887+0200
+2023-02-17T00:16:48.889+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "SQL"..: timestamp=2023-02-17T00:16:48.889+0200
+2023-02-17T00:16:48.889+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "SQL"..: timestamp=2023-02-17T00:16:48.889+0200
+2023-02-17T00:16:48.890+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Storage"..: timestamp=2023-02-17T00:16:48.890+0200
+2023-02-17T00:16:48.890+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Storage"..: timestamp=2023-02-17T00:16:48.890+0200
+2023-02-17T00:16:48.892+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Stream Analytics"..: timestamp=2023-02-17T00:16:48.891+0200
+2023-02-17T00:16:48.892+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Stream Analytics"..: timestamp=2023-02-17T00:16:48.892+0200
+2023-02-17T00:16:48.893+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Subscription"..: timestamp=2023-02-17T00:16:48.893+0200
+2023-02-17T00:16:48.893+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Subscription"..: timestamp=2023-02-17T00:16:48.893+0200
+2023-02-17T00:16:48.893+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Synapse"..: timestamp=2023-02-17T00:16:48.893+0200
+2023-02-17T00:16:48.893+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Synapse"..: timestamp=2023-02-17T00:16:48.893+0200
+2023-02-17T00:16:48.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Time Series Insights"..: timestamp=2023-02-17T00:16:48.894+0200
+2023-02-17T00:16:48.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Time Series Insights"..: timestamp=2023-02-17T00:16:48.894+0200
+2023-02-17T00:16:48.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Traffic Manager"..: timestamp=2023-02-17T00:16:48.894+0200
+2023-02-17T00:16:48.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Traffic Manager"..: timestamp=2023-02-17T00:16:48.894+0200
+2023-02-17T00:16:48.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Video Analyzer"..: timestamp=2023-02-17T00:16:48.894+0200
+2023-02-17T00:16:48.894+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Video Analyzer"..: timestamp=2023-02-17T00:16:48.894+0200
+2023-02-17T00:16:48.895+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "VMware"..: timestamp=2023-02-17T00:16:48.895+0200
+2023-02-17T00:16:48.896+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "VMware"..: timestamp=2023-02-17T00:16:48.895+0200
+2023-02-17T00:16:48.896+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Data Sources for "Web"..: timestamp=2023-02-17T00:16:48.895+0200
+2023-02-17T00:16:48.896+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: Registering Resources for "Web"..: timestamp=2023-02-17T00:16:48.895+0200
+2023-02-17T00:16:48.897+0200 [DEBUG] provider.terraform-provider-azurerm_v3.43.0_x5.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-02-17T00:16:48.897+0200
+2023-02-17T00:16:48.897+0200 [DEBUG] provider: using plugin: version=5
+2023-02-17T00:16:51.707+0200 [ERROR] vertex "azurerm_virtual_machine_extension.vmextension" error: Missing resource instance key
+2023-02-17T00:16:51.860+0200 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2023-02-17T00:16:51.903+0200 [DEBUG] provider: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.43.0/windows_amd64/terraform-provider-azurerm_v3.43.0_x5.exe pid=2536
+2023-02-17T00:16:51.904+0200 [DEBUG] provider: plugin exited
